@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>form</title>
+</head>
+
+<body>
+    <main class="content">
+        <h1>Cadastro Cliente</h1>
+        <form class="form">
+            <div class="pai">
+                <div class="name">
+                    <label for="text">Nome</label>
+                    <input type="text" placeholder="Digite seu primeiro nome" required>
+                </div>
+                <div class="name">
+                    <label for="text">Sobrenome</label>
+                    <input type="text" placeholder="Digite seu Sobrenome" required>
+                </div>
+            </div>
+            <div class="name">
+                <label for="text">E-mail</label>
+                <input type="email" placeholder="Digite seu E-mail" required>
+            </div>
+            <div class="tio">
+                <div class="name">
+                    <label for="text"> Data Nascimento</label>
+                    <input type="date" placeholder="dd/mm/yyyy" required>
+                </div>
+                <div class="name">
+                    <label for="text">CPF</label>
+                    <input type="number" placeholder="Ex: 000.000.000-0" required>
+                </div>
+            </div>
+            <div class="vo">
+                <div class="name">
+                    <label for="text">CEP</label>
+                    <input type="number" placeholder="Digite seu CEP" required>
+                </div>
+                <div class="name">
+                    <label for="text">Complemento</label>
+                    <input type="text" placeholder="Ex: apartamento 3" required>
+                </div>
+            </div>
+            <div class="cidade">
+            <div class="name">
+                <label for="text">Cidade</label>
+                <input class="fundo-vermelho" type="text" placeholder="Nome da Cidade" required>
+            </div>
+            <div class="name">
+                <label for="text">Bairro</label>
+                <input type="text" placeholder="Nome do Bairro" required>
+            </div>
+        </div>
+        <div class="rua">
+            <div class="name">
+                <label for="text">Rua</label>
+                <input type="text" placeholder="Nome da Rua" required>
+            </div>
+            <div class="name">
+                <label for="text">Numero da residência</label>
+                <input type="number" placeholder="N:" required>
+            </div>
+        </div>
+            <div class="sim">
+                <h2>Trabalha?</h2>
+                <div class="radio">
+                <label for="sim">sim</label>
+                <input type="radio" id="sim">
+            </div>
+            <div class="radioo">
+                <label for="não">não</label>
+                <input type="radio" id="não">
+            </div>
+            </div>
+            <div class="name">
+                <label for="text">Criar Senha</label>
+                <input type="password" placeholder="Digite sua senha" required>
+            </div>
+            <div class="name">
+                <label for="text">Confirmar Senha</label>
+                <input type="password" placeholder="Digite novamente sua senha" required>
+            </div>
+            <button type="submit"><p>Enviar</p></button>
+
+        </form>
+    </main>
+
+</body>
+
+</html>

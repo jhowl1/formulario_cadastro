@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+}
+
+.content {
+    padding: 30px 30px;
+    border-radius: 8px;
+    background: #fff;
+    display: flex;
+    margin: auto;
+    width: 873px;
+    flex-direction: column;
+
+
+    & .pai {
+        display: flex;
+        gap: 10px;
+
+
+    }
+
+    & .tio {
+        display: flex;
+        gap: 10px;
+
+
+        & .name:first-child {
+            width: 200px;
+
+            & input {
+                width: 100%;
+            }
+        }
+
+        & .name:last-child {
+            width: 600px;
+
+            & input {
+                width: 100%;
+
+            }
+        }
+    }
+
+    & .vo {
+        display: flex;
+        gap: 10px;
+    }
+
+    & .cidade {
+        display: flex;
+        gap: 10px;
+    }
+
+    & .rua {
+        display: flex;
+        gap: 10px;
+        & .name:first-child {
+            width: 600px;
+
+            & input {
+                width: 100%;
+            }
+        }
+
+        & .name:last-child {
+            width: 200px;
+
+            & input {
+                width: 100%;
+
+            }
+        }
+    }
+
+    h1 {
+        padding: 30px 30px;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    & .name {
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+        margin-bottom: 6px;
+        width: 813px;
+
+
+        & input {
+            border: 0.5px solid #757575;
+            border-radius: 6px;
+            padding: 6px 10px;
+
+
+        }
+
+        & label {
+
+
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: left;
+
+        }
+
+    }
+
+    & .sim {
+
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+        margin-bottom: 12px;
+
+
+    }
+
+    button {
+        width: 813px;
+        height: 50px;
+        padding: 10px 0px 10px 0px;
+        gap: 6px;
+       border-radius: 8px;
+        background: #5378BB;
+
+        p {
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 30px;
+            color: #fff;
+        }
+    }
+}
+}
